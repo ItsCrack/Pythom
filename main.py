@@ -80,3 +80,23 @@ datos.pop("Fronteras")
 
 #25.-Imprime el diccionario
 print(datos)
+
+#26.-Crea una variable llamada año y asígnale el valor 2022.
+año = 2022
+
+#27.-Usando if, crea un código que imprima pasado si el año es menor a 2022, presente si es igual a 2022, y futuro si es mayor que 2022.
+if año > 2022:
+    print("futuro")
+elif año < 2022:
+    print("pasado")
+else:
+    print("presente")
+
+#28.-Crea una lista llamada ciudades, compuesta por Chillán, Concepción, Temuco, Valdivia y Osorno.
+ciudades = ["Chillán", "Concepción", "Temuco", "Valdivia", "Osorno"]
+
+#29.-Usando if comprueba si la ciudad Concepción está en la lista.
+if "Concepción" in ciudades:
+    print("Concepción sí está en las ciudades")
+else:
+    print("Concepción no está en las ciudades.")

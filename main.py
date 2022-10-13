@@ -57,3 +57,26 @@ primos_de_mersenne = [7, 3, 8191, 127, 31]
 #18.-Ordena la lista primos_de_mersenne de menor a mayor y de mayor a menor.
 primos_de_mersenne.sort() #Menor > Mayor
 primos_de_mersenne.sort(reverse = True) #Mayor > Menor
+
+#19.-Escribe un diccionario que almacene la información de la siguiente tabla. (No voy a transcribir la tabla)
+datos = {"País":"Chile", "Capital":"Santiago", "Gobierno":"República", "Superficie":756102, "Fronteras":7801}
+
+#20.-Imprime el contenido del diccionario.
+print(datos)
+
+#21.-Imprime el contenido de la llave Capital.
+print(datos["Capital"])
+
+#22.-Añade.
+datos["Línea de costa"] = "6.435 km"
+datos["Población"] = "19.828.563 hab"
+
+#23.-Imprime el diccionario
+print(datos)
+
+#24.-Elimina Superficie y Fronteras
+datos.pop("Superficie")
+datos.pop("Fronteras")
+
+#25.-Imprime el diccionario
+print(datos)

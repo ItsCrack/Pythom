@@ -9,7 +9,7 @@ Ahora explicaré cómo es la distribución de subcarpetas que contiene el mismo 
 ```
 Main
 ↳ README.md (file)
-↳ practica1 (folder)
+↳ Practica1 (folder)
   ↳ index.py (file)
 ```
 ## Autor

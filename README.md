@@ -8,9 +8,9 @@ Ahora explicaré cómo es la distribución de subcarpetas que contiene el mismo 
 
 ```
 Main
-↳ README.md (file)
 ↳ Practica1 (folder)
   ↳ index.py (file)
+↳ README.md (file)
 ```
 ## Autor
 Todo este repositorio fue creado por Matías Godoy con uso exclusivo con el fin de demostrar los avances de contenido entregados por el profesor Samuel.
